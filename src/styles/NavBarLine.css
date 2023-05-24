@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+.NavBarLine {
+    margin-top: 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.NavBarLine>h6 {
+    font-size: 16px;
+    color: #1d1d1f;
+    font-weight: 600;
+    word-spacing: 0.1vmax;
+}
+
+.NavBarLine>a {
+    text-decoration: none;
+    margin-left: 0.5vmax;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}

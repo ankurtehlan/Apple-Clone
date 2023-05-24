@@ -1,0 +1,95 @@
+.heroThird {
+    position: relative;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroThird::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../hero_apple_watch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.heroThird-content {
+    position: relative;
+    font-family: "Monserrat", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0.625rem;
+    align-items: center;
+    justify-content: center;
+    top: -200px;
+}
+
+.heroThird-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.innerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerDiv>span {
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 0.5vmax;
+}
+
+.heroThird-title>span>img {
+    width: 50px;
+    height: 55px;
+}
+
+.heroThird-subtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+    position: relative;
+    /* top: -210px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.span {
+    color: crimson;
+    font-size: 1.5vmax;
+}
+
+
+
+.heroThirdAnchorTag {
+    position: relative;
+    margin-top: 1vmax;
+}
+
+.heroThirdAnchorTag>a {
+    text-decoration: none;
+    font-size: 1.5vmax;
+    font-weight: 200;
+    font-family: "Monserrat", sans-serif;
+    margin: 1.5vmax;
+    color: rgb(93, 93, 226);
+}
+
+.heroThirdAnchorTag>a>span {
+    font-size: 14px;
+}

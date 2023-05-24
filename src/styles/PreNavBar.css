@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+.PreNavBar {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    height: 48px;
+    width: auto;
+    background-color: rgba(22, 22, 23, .8);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.apple-logo {
+    position: relative;
+    left: 12vmax;
+}
+
+.apple-logo>img {
+    width: 20px;
+    height: 22px;
+}
+
+.PreNavBarLinks {
+    position: absolute;
+    left: 15vmax;
+}
+
+.PreNavBarLinks>a {
+    text-decoration: none;
+    margin: 1.2vmax;
+    color: rgba(255, 255, 255, .8);
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+.PreNavBarLinks>a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.PreNavBarSearchIcon {
+    position: absolute;
+    right: 210px;
+    margin: 0;
+}
+
+.PreNavBarBagIcon {
+    position: absolute;
+    right: 150px;
+}

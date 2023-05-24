@@ -1,0 +1,98 @@
+.MiddleSection {
+    display: flex;
+}
+
+
+.leftSection {
+    border: 2px solid red;
+    height: 90vh;
+    width: 50vw;
+    margin: 0.8vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.leftSection::before {
+    content: "";
+    position: absolute;
+    background: url(../promo_wwdc23.jpg);
+    width: 48vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.leftSection>img {
+    width: 20vmax;
+    height: 3.5vmax;
+    border: 2px solid red;
+    z-index: 10000;
+    position: absolute;
+
+}
+
+
+.rightSection {
+    border: 2px solid red;
+    height: 90vh;
+    width: 50vw;
+    margin: 0.8vmax;
+}
+
+
+.rightSection::before {
+    content: "";
+    position: absolute;
+    background: url(../promo_ipad.jpg);
+    width: 48vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+/* .MiddleSection {
+    display: flex;
+}
+
+.rightSection {
+    width: 50%;
+    height: 50%;
+}
+
+.rightSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background: url(../promo_ipad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.leftSection {
+    position: relative;
+    height: 100vh;
+}
+
+.leftSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background: url(../promo_ipad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+} */
